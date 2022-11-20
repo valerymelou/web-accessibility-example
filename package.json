@@ -1,0 +1,29 @@
+{
+  "name": "web-accessibility-example",
+  "version": "1.0.0",
+  "description": "An example of a contact form that is 100% web accessible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valerymelou/web-accessibility-example.git"
+  },
+  "keywords": [
+    "web-accessibility"
+  ],
+  "author": "Valery Melou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valerymelou/web-accessibility-example/issues"
+  },
+  "homepage": "https://github.com/valerymelou/web-accessibility-example#readme",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

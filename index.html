@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me - Web Accessibility Demo #DevFest2022</title>
+    <meta name="description" content="An example of a contact form that is 100% web accessible.">
+    <link rel="stylesheet" href="/dist/style.css">
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <div class="m-auto">
+      <div>
+        <p class="mb-5 text-5xl font-bold">Contact me</p>
+      </div>
+      <form method="post">
+        <div class="mb-3 grid grid-cols-2 gap-3">
+          <div>
+            <label>First name</label>
+            <input type="text" class="input" autofocus>
+          </div>
+          <div>
+            <label>Last name</label>
+            <input type="text" class="input">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label>Email address</label>
+          <input type="email" class="input">
+        </div>
+        <div class="mb-3">
+          <label>Subject</label>
+          <input type="text" class="input">
+        </div>
+        <div class="mb-3">
+          <label>Message</label>
+          <textarea name="message" id="message" cols="30" rows="10" class="input"></textarea>
+        </div>
+        <div class="flex mb-3">
+          <a href="#" class="button">
+            <span aria-hidden="true">&leftarrow;</span>
+          </a>
+          <button class="ml-auto button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
